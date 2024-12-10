@@ -1,0 +1,58 @@
+footer{
+    width: 100%;
+    display: flex;             /* Active le mode Flexbox */
+    justify-content: space-between; /* Espace égal entre les paragraphes */
+    align-items: center;       /* Aligne les paragraphes verticalement */
+    gap: 20px;                 /* Ajoute un espace fixe entre les paragraphes */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+ 
+#Alignement{
+    text-align: center;
+}
+.equipe{
+    text-align: center;
+    background-image: url(images/navbar/technologie-reseau-futuriste-bleue_53876-100679.avif);
+    height: 80px;
+    width: 150;
+    color: white;
+    a:active { color: red; background-color: #ffd9d9; }
+     a:hover { color: maroon; background-color: #ffd9d9; }
+     a:link { color: maroon; }
+     a:visited { color: white; }
+}
+fieldset{
+    background-image: url(images/illustration/fond\ fieldset.jpg);
+    background-size:  600px 500px;
+    background-position: 25% 100%;
+}
+.equipe a {
+    font-weight: 900;
+     display: flex;
+     flex-direction:column ;
+     font-size: x-large;
+     
+}
+body{
+   
+    padding: 35px;
+    background-color: #ffebd2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+h1{
+
+        text-shadow: .3em  .3em  plum;
+        font-size: xx-large;
+        font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+text-align: center;
+}
+p{
+    text-align: center;
+}
